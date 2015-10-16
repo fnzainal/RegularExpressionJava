@@ -17,7 +17,7 @@ public class EmailChecker {
 		if(emails.matches(regex)){
 			System.out.println(emails+" is valid email.");
 		}else{
-			System.out.println(emails+" is invallid email.");
+			System.out.println(emails+" is invalid email.");
 		}
 		input.close();
 }
